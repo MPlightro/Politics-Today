@@ -171,6 +171,9 @@ footer p {
   color: var(--muted);
   font-size: 13px;
 }
+footer{
+  display: flex;
+}
 @media (max-width: 760px) {
   .hero {
     grid-template-columns: 1fr;
