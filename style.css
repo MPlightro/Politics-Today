@@ -182,6 +182,7 @@ footer.site {
   position: absolute;
   bottom: 0;
   box-sizing: border-box;
+  width: max-content;
 }
 
 footer p {
