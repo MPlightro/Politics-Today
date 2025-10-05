@@ -42,7 +42,7 @@ header.site {
   border-radius: 6px;
   margin-bottom: 8px;
   display: block;
-  margin-left: auto;
+  margin-left: 0;
   margin-right: auto;
 }
 
@@ -170,7 +170,9 @@ footer p {
   color: var(--muted);
   font-size: 13px;
 }
-
+footer{
+  margin-top: auto;
+}
 @media (max-width: 760px) {
   .hero {
     grid-template-columns: 1fr;
